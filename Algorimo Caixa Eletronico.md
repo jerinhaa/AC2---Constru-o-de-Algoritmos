@@ -26,7 +26,6 @@ class Main {
  if (cpfinformado == cpfcadastro) { 
  System.out.println("Digite sua senha");
  senhainformada = ler.nextInt();
- // do while
  if (senhainformada == senhacadastro){
  System.out.println("Obrigado por fazer parte do nosso banco");
  ler = new Scanner(System.in);
